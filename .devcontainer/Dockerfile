@@ -15,4 +15,4 @@ ENV PATH=${DENO_INSTALL}/bin:~/.deno/bin:${PATH} \
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 #    && apt-get -y install --no-install-recommends <your-package-list-here>
 RUN curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash - &&\
-    sudo apt-get install -y nodejs libc++-15-dev
+    sudo apt-get install -y nodejs libc++1
